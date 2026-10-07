@@ -11,7 +11,7 @@ export default function ProjectsDashboard() {
     const createProject = api.project.create.useMutation({
         onSuccess: () => {
             void utils.project.getAll.invalidate();
-            // setTitle("")
+            setTitle("")
         }
     })
 
@@ -32,7 +32,7 @@ export default function ProjectsDashboard() {
           className="border rounded px-4 py-2 flex-1"
         />
         <button
-          onClick={() => createProject.mutate({ title, orgId: "123" })}
+          onClick={() => createProject.mutate({ title, orgId: "123" /* replace with your own hardcoded orgId*/ })}
           disabled={createProject.isPending}
           className="bg-blue-600 text-white px-6 py-2 rounded font-medium hover:bg-blue-700 disabled:opacity-50"
         >
