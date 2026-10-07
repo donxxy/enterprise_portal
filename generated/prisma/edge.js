@@ -202,7 +202,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/Users/XanthPalmes/Documents/repositories/enterprise-portal/generated/prisma",
+      "value": "C:\\Users\\jeremy\\Documents\\T3 stach\\enterprise_portal\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -211,12 +211,12 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "darwin-arm64",
+        "value": "windows",
         "native": true
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/Users/XanthPalmes/Documents/repositories/enterprise-portal/prisma/schema.prisma",
+    "sourceFilePath": "C:\\Users\\jeremy\\Documents\\T3 stach\\enterprise_portal\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
@@ -230,6 +230,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
